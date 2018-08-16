@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Table Data Addition</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+<body>
+<div style="padding-left: 20px; padding-right: 20px; padding-top: 10px">
+    <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1">OCR Helper</span>
+    </nav>
+    <div class="row">
+        <div class="col">
+            <table class="table table-striped table table-bordered">
+                <thead>
+                <tr>
+                    <th scope="col" class="text-center" width="30px">#</th>
+                    <th scope="col">Opportunity Name</th>
+                    <th scope="col" class="text-center" width="296px">Stages</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Integrity Collision Center <img src="images/opp-error-ico.png" width="20px" height="20px"/></td>
+                    <td>
+                        <button type="button" class="btn btn-success btn-sm">Loading</button>
+                        <button type="button" class="btn btn-danger btn-sm">Validate</button>
+                        <button type="button" class="btn btn-secondary btn-sm">Current Advances</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Conwell William LLC <img src="images/opp-done-ico.png" width="20px" height="20px"/></td>
+                    <td>
+                        <button type="button" class="btn btn-success btn-sm">Loading</button>
+                        <button type="button" class="btn btn-success btn-sm">Validate</button>
+                        <button type="button" class="btn btn-success btn-sm">Current Advances</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Subway of Troutman <img src="images/opp-processing-ico.png" width="20px" height="20px"/></td>
+                    <td>
+                        <button type="button" class="btn btn-success btn-sm">Loading</button>
+                        <button type="button" class="btn btn-secondary btn-sm">Validate</button>
+                        <button type="button" class="btn btn-secondary btn-sm">Current Advances</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Vending Concepts <img src="images/opp-done-ico.png" width="20px" height="20px"/></td>
+                    <td>
+                        <button type="button" class="btn btn-success btn-sm">Loading</button>
+                        <button type="button" class="btn btn-success btn-sm">Validate</button>
+                        <button type="button" class="btn btn-success btn-sm">Current Advances</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>Chase Common <img src="images/opp-error-ico.png" width="20px" height="20px"/></td>
+                    <td class="align-content-center">
+                        <button type="button" class="btn btn-success btn-sm">Loading</button>
+                        <button type="button" class="btn btn-success btn-sm">Validate</button>
+                        <button type="button" class="btn btn-danger btn-sm">Current Advances</button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col">
+            <table class="table table-striped table table-bordered">
+                <thead>
+                <tr>
+                    <th scope="col" class="text-center" width="30px">Chase Common / Current Advances</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Vistar Corp. A/R Obligs</td>
+                </tr>
+                <tr>
+                    <td>Microtronic US Payments</td>
+                </tr>
+                <tr>
+                    <td>Intuit Payroll S</td>
+                </tr>
+                <tr>
+                    <td>Worldpay Mthly Chgs</td>
+                </tr>
+                <tr>
+                    <td>Lowes CC</td>
+                </tr>
+                <tr>
+                    <td>Capital One</td>
+                </tr>
+                </tbody>
+            </table>
+            <input type="text" class="form-control" id="copied" placeholder="Copy from Current Advances">
+            <label for="exampleFormControlSelect1">Select</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>Online Transfer</option>
+                <option>MCA</option>
+                <option>Returns</option>
+            </select> <br>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
